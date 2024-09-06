@@ -6,8 +6,8 @@ import NotesProvider from './context/NotesContext';
 const client = new Client();
 
 client
-      .setEndpoint('https://cloud.appwrite.io/v1')
-      .setProject('65ca1dcde1a2fcf3db94');
+      .setEndpoint()
+      .setProject();
        
 
 
